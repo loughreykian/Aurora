@@ -1,0 +1,29 @@
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+const config = {
+  "ownerID": "",
+  "Client_ID": "",
+  "prefix": "|",
+  "token": "NDExMjk5NDI4NDExMTEzNDgz.DYeTEQ.Ckixgsmzk5jdkvz1r_uDQ1lE4FA",
+
+  "serverInvite": "",
+  "botInvite": "",
+  "botBETAInvite": "",
+
+  "logChan": "",
+  "errorChan": "",
+
+  "queueSize": 100,
+
+  "region": "GBR",
+  "portMusic": 2333,
+  "nodes": [
+    { "host": "localhost", "port": 80, "region": "GBR", "password": "youshallnotpass" }
+  ],
+
+  "youtubeAPIKey": "",
+  "googleAPIKey": ""
+};
+
+module.exports = config;

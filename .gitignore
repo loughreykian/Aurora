@@ -1,0 +1,26 @@
+# Dependencies #
+################
+node_modules/
+
+# RethinkDB #
+#############
+rethinkdb_data/
+
+# Lavalink #
+############
+Lavalink/
+
+# Config & JSONs #
+##################
+config.js
+logs.json
+
+# Images #
+##########
+Emotes/
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*

@@ -1,0 +1,30 @@
+const Command = require('../../structures/command.js');
+
+module.exports = class extends Command {
+    constructor(client, filePath, group) {
+                super(client, filePath, group, {
+            conf: {
+                enabled: true,
+                guildOnly: true,
+                aliases: []
+            },
+            help: {
+                name: "",
+                description: "",
+                usage: "",
+                examples: []
+            },
+            details: {
+                base: "",
+                reqPerms: []
+            }
+        })
+    }
+    async execute(client, message, args, MAM, serverQueue) {        
+        try {
+
+        }  catch (err) {
+           return message.send(client.functions['errorMessage'](err, message));
+        };
+    };
+};

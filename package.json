@@ -1,0 +1,26 @@
+{
+  "name": "Aurora",
+  "version": "1.0.4",
+  "author": "Papple#3899",
+  "dependencies": {
+    "chalk": "^2.4.0",
+    "common-tags": "^1.7.2",
+    "discord.js": "^11.3.2",
+    "discord.js-lavalink": "^2.0.2",
+    "fs": "0.0.1-security",
+    "klaw": "^2.1.1",
+    "long": "^4.0.0",
+    "moment-timezone": "^0.5.16",
+    "ms": "^2.1.1",
+    "mysql": "^2.15.0",
+    "os": "^0.1.1",
+    "os-utils": "0.0.14",
+    "path": "^0.12.7",
+    "pidusage": "^1.2.0",
+    "rethinkdb": "^2.3.3",
+    "simple-youtube-api": "^5.0.1",
+    "sloc": "^0.2.0",
+    "systeminformation": "^3.38.0",
+    "usage": "^0.7.1"
+  }
+}

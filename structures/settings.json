@@ -1,0 +1,59 @@
+{
+    "names": {
+        "prefix": "prefix",
+        "music-enabled": "musicEnabled",
+        "prevent-duplicates": "preventDuplicates",
+        "announce-songs": "announceSongs",
+        "dj-role": "djRole",
+        "mod-role": "modRole",
+        "admin-role": "adminRole",
+        "blacklist": "blChan"
+    },
+    "icons": {
+        "prefix": "📝",
+        "music-enabled": "🎶",
+        "prevent-duplicates": "✂",
+        "announce-songs": "📡",
+        "dj-role": "💿",
+        "mod-role": "⚒",
+        "admin-role": "⚔",
+        "blacklist": "🚫"
+    },
+    "perms": {
+        "names": {
+            "mod-role": "modRole",
+            "admin-role": "adminRole",
+            "member-role": "memberRole"
+        },
+        "perms": {
+            "CREATE_INSTANT_INVITE": true,
+            "KICK_MEMBERS": true,
+            "BAN_MEMBERS": true,
+            "ADMINISTRATOR": true,
+            "MANAGE_CHANNELS": true,
+            "MANAGE_GUILD": true,
+            "ADD_REACTIONS": true,
+            "VIEW_CHANNEL": true,
+            "SEND_MESSAGES": true,
+            "SEND_TTS_MESSAGES": true,
+            "MANAGE_MESSAGES": true,
+            "EMBED_LINKS": true,
+            "ATTACH_FILES": true,
+            "READ_MESSAGE_HISTORY": true,
+            "MENTION_EVERYONE": true,
+            "EXTERNAL_EMOJIS": true,
+            "CONNECT": true,
+            "SPEAK": true,
+            "MUTE_MEMBERS": true,
+            "DEAFEN_MEMBERS": true,
+            "MOVE_MEMBERS": true,
+            "USE_VAD": true,
+            "CHANGE_NICKNAME": true,
+            "MANAGE_NICKNAMES": true,
+            "MANAGE_ROLES_OR_PERMISSIONS": true,
+            "MANAGE_WEBHOOKS": true,
+            "MANAGE_EMOJIS": true,
+            "OPEN": true
+        }
+    }
+}
